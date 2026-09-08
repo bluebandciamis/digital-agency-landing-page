@@ -1,0 +1,170 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'Space Grotesk', 'Space Grotesk Fallback', system-ui, sans-serif;
+  --font-display: 'Archivo Black', 'Archivo Black Fallback', Impact, sans-serif;
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+
+  --color-crimson: var(--crimson);
+  --color-gold: var(--gold);
+  --color-magenta: var(--magenta);
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  color-scheme: light;
+
+  --crimson: #e2192b;
+  --gold: #ffd21f;
+  --magenta: #ff3cac;
+  --ink: #12101f;
+  --paper: #fff6e5;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: var(--crimson);
+  --primary-foreground: var(--paper);
+  --secondary: var(--gold);
+  --secondary-foreground: var(--ink);
+  --muted: #f3e6cf;
+  --muted-foreground: #4a4557;
+  --accent: var(--magenta);
+  --accent-foreground: var(--ink);
+  --destructive: var(--crimson);
+  --border: var(--ink);
+  --input: var(--ink);
+  --ring: var(--magenta);
+  --radius: 0.25rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    background: var(--gold);
+    color: var(--ink);
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+@utility shadow-hard {
+  box-shadow: 6px 6px 0 0 var(--ink);
+}
+
+@utility shadow-hard-sm {
+  box-shadow: 3px 3px 0 0 var(--ink);
+}
+
+@utility shadow-hard-lg {
+  box-shadow: 10px 10px 0 0 var(--ink);
+}
+
+@utility shadow-hard-gold {
+  box-shadow: 6px 6px 0 0 var(--gold);
+}
+
+@utility shadow-hard-magenta {
+  box-shadow: 6px 6px 0 0 var(--magenta);
+}
+
+@utility halftone {
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--ink) 22%, transparent) 1.2px,
+    transparent 1.4px
+  );
+  background-size: 10px 10px;
+}
+
+@utility halftone-light {
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--paper) 35%, transparent) 1.4px,
+    transparent 1.6px
+  );
+  background-size: 12px 12px;
+}
+
+@utility rays {
+  background-image: repeating-conic-gradient(
+    from 0deg at 50% 50%,
+    var(--gold) 0deg 9deg,
+    transparent 9deg 18deg
+  );
+}
+
+@utility text-stroke-ink {
+  -webkit-text-stroke: 2px var(--ink);
+}
+
+@utility text-stroke-paper {
+  -webkit-text-stroke: 2px var(--paper);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@utility animate-marquee {
+  animation: marquee 28s linear infinite;
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px) rotate(-1deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@utility animate-pop-in {
+  animation: pop-in 0.6s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+}

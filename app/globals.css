@@ -72,6 +72,25 @@
   --radius: 0.25rem;
 }
 
+html.dark {
+  color-scheme: dark;
+
+  --paper: #12101f;
+  --ink: #fff6e5;
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --muted: #231f31;
+  --muted-foreground: #d8d0d9;
+  --accent: var(--magenta);
+  --accent-foreground: var(--ink);
+  --border: var(--ink);
+  --input: var(--ink);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

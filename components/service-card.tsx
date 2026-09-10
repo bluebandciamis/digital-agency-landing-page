@@ -1,5 +1,6 @@
-import Link from 'next/link'
 import { ArrowRight, Check, Clock } from 'lucide-react'
+import { getTranslations } from 'next-intl/server'
+import { Link } from '@/i18n/navigation'
 import { LaptopFrame, PhoneFrame } from '@/components/device-frames'
 import type { Service } from '@/lib/services'
 import { cn } from '@/lib/utils'
@@ -10,8 +11,9 @@ const toneClasses: Record<Service['tone'], { header: string; shadow: string }> =
   magenta: { header: 'bg-magenta text-ink', shadow: 'shadow-hard-gold' },
 }
 
-export function ServiceCard({ service, index }: { service: Service; index: number }) {
+export async function ServiceCard({ service, index }: { service: Service; index: number }) {
   const tone = toneClasses[service.tone]
+  const t = await getTranslations('ServiceCard')
 
   return (
     <article
@@ -31,9 +33,9 @@ export function ServiceCard({ service, index }: { service: Service; index: numbe
 
       <div className="halftone flex h-44 items-end justify-center overflow-hidden border-b-[4px] border-ink bg-muted px-6 pt-6">
         {service.preview === 'laptop' ? (
-          <LaptopFrame className="w-4/5 translate-y-2" label="Preview portofolio" />
+          <LaptopFrame className="w-4/5 translate-y-2" label={t('previewLabel')} />
         ) : (
-          <PhoneFrame className="w-24 translate-y-6" label="Preview portofolio" />
+          <PhoneFrame className="w-24 translate-y-6" label={t('previewLabel')} />
         )}
       </div>
 
@@ -41,7 +43,7 @@ export function ServiceCard({ service, index }: { service: Service; index: numbe
         <p className="leading-relaxed text-muted-foreground">{service.description}</p>
 
         <div>
-          <h4 className="mb-2 text-xs font-bold tracking-widest uppercase">Apa yang didapat</h4>
+          <h4 className="mb-2 text-xs font-bold tracking-widest uppercase">{t('whatYouGet')}</h4>
           <ul className="flex flex-col gap-1.5">
             {service.deliverables.map((item) => (
               <li key={item} className="flex items-start gap-2 text-sm font-medium">
@@ -57,23 +59,23 @@ export function ServiceCard({ service, index }: { service: Service; index: numbe
         <dl className="grid grid-cols-2 gap-3 border-t-[3px] border-ink pt-4">
           <div>
             <dt className="flex items-center gap-1 text-xs font-bold tracking-widest uppercase">
-              <Clock className="size-3.5" aria-hidden="true" /> Estimasi
+              <Clock className="size-3.5" aria-hidden="true" /> {t('estimate')}
             </dt>
             <dd className="font-display text-lg">{service.duration}</dd>
           </div>
           <div>
-            <dt className="text-xs font-bold tracking-widest uppercase">Mulai dari</dt>
+            <dt className="text-xs font-bold tracking-widest uppercase">{t('startingFrom')}</dt>
             <dd className="font-display text-lg text-crimson">{service.priceFrom}</dd>
           </div>
         </dl>
 
-        <Link
+        <a
           href="#kontak"
           className="mt-auto inline-flex items-center justify-center gap-2 border-[3px] border-ink bg-ink px-5 py-3 font-display text-sm text-paper uppercase shadow-hard-sm transition-all hover:bg-crimson hover:shadow-hard active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
         >
-          Pesan Jasa
+          {t('order')}
           <ArrowRight className="size-4" aria-hidden="true" />
-        </Link>
+        </a>
       </div>
     </article>
   )

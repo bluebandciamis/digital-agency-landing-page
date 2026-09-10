@@ -1,0 +1,361 @@
+{
+  "Hero": {
+    "badge": "Design & Development Studio",
+    "title": {
+      "start": "Bold",
+      "highlight": "design.",
+      "middle": "Working",
+      "stroke": "applications."
+    },
+    "subtitle": "VERSE helps startups and businesses design mobile & web UI/UX, then turn it into real, working products. No jargon, no boring templates.",
+    "primaryCta": "Free Consultation",
+    "secondaryCta": "View Services",
+    "stats": [
+      { "label": "Design sprint", "value": "2 weeks" },
+      { "label": "Your code", "value": "100%" },
+      { "label": "Post-launch support", "value": "30 days" }
+    ],
+    "previewLabel": "Interactive preview",
+    "laptopFrameLabel": "Your web app goes here",
+    "phoneFrameLabel": "Your mobile app goes here",
+    "slotMockup": "Mockup slot ready for the next client product — maybe yours."
+  },
+  "Metadata": {
+    "title": "VERSE Studio — UI/UX Design & App Development Services",
+    "description": "A digital studio crafting mobile and web UI/UX and building impactful applications with bold design, clean code, and real-world results."
+  },
+  "About": {
+    "badge": "Profile",
+    "title": "We exist to make ideas feel real.",
+    "paragraphs": [
+      "VERSE Studio is a digital agency helping businesses and startups shape digital products that are clear, easy to understand, and ready to grow.",
+      "We work from research and strategy to design and development, with a strong focus on user experience and outcomes that can be realized in practice."
+    ],
+    "visionBadge": "Vision & Mission",
+    "visionTitle": "Vision",
+    "visionText": "To become a digital partner that helps businesses grow through strategy, design, and impactful products.",
+    "missionTitle": "Mission",
+    "missionItems": [
+      "Turn business ideas into clear and measurable solutions.",
+      "Develop digital experiences that are comfortable and effective.",
+      "Maintain quality, communication, and client trust.",
+      "Create products that are easy to understand, trust, and enjoy."
+    ]
+  },
+  "Services": {
+    "badge": "Services",
+    "title": "Choose a package. We execute.",
+    "description": "All packages are modular — combine design and development, or take the one that best fits your needs right now."
+  },
+  "StatsSection": {
+    "badge": "Statistics",
+    "title": "Numbers that inspire confidence.",
+    "items": [
+      {
+        "label": "Experience",
+        "value": "8",
+        "suffix": "+",
+        "description": "Years crafting digital projects for brands and startups."
+      },
+      {
+        "label": "Clients",
+        "value": "120",
+        "suffix": "+",
+        "description": "Projects completed across design, development, and support."
+      },
+      {
+        "label": "Team",
+        "value": "18",
+        "suffix": "",
+        "description": "Creative, strategic, and engineering professionals ready to move fast."
+      },
+      {
+        "label": "Retention",
+        "value": "96",
+        "suffix": "%",
+        "description": "Clients who trusted us again after the first project."
+      }
+    ]
+  },
+  "TestimonialsSection": {
+    "badge": "Testimonials",
+    "title": "Our clients trust the results.",
+    "ratingLabel": "out of 5 stars",
+    "items": [
+      {
+        "name": "Rizky",
+        "role": "Founder",
+        "company": "Nusa Creative",
+        "quote": "The team is responsive, detail-oriented, and the design results genuinely helped us sell stronger. The process was also fast and communicative.",
+        "rating": 5
+      },
+      {
+        "name": "Alya",
+        "role": "Marketing Lead",
+        "company": "Vision Labs",
+        "quote": "We needed a more modern website ready for campaign use. The result exceeded expectations, especially in UX.",
+        "rating": 5
+      },
+      {
+        "name": "Dimas",
+        "role": "Product Manager",
+        "company": "Orbit Studio",
+        "quote": "They did more than make things look good; they also ensured the user flow and execution were clean for the internal team.",
+        "rating": 5
+      }
+    ]
+  },
+  "FaqSection": {
+    "badge": "FAQ",
+    "title": "Questions we hear often.",
+    "items": [
+      {
+        "question": "What is included in UI/UX Design?",
+        "answer": "Our UI/UX Design service includes user research, wireframes, prototypes, design systems, and high-fidelity interfaces ready for development teams to use."
+      },
+      {
+        "question": "How long does a website project usually take?",
+        "answer": "The timeline depends on project complexity. Landing pages typically take 2–4 weeks, while web apps or larger applications usually take longer depending on the required features."
+      },
+      {
+        "question": "Do you offer maintenance after the website is launched?",
+        "answer": "Yes, we provide Maintenance and Support for feature updates, bug fixing, security improvements, and performance optimization after launch."
+      },
+      {
+        "question": "Can you handle App Development and UI/UX at the same time?",
+        "answer": "Yes. We can manage everything from research and design to development, deployment, and ongoing support to ensure the final result stays consistent."
+      },
+      {
+        "question": "How does collaboration and communication work with the team?",
+        "answer": "The process usually starts with a brief, after which the team prepares a roadmap, revisions, and regular progress updates so clients stay connected from the beginning."
+      }
+    ]
+  },
+  "Process": {
+    "badge": "Process",
+    "title": "Four steps, zero drama.",
+    "steps": [
+      { "title": "Brief", "text": "A 30-minute discussion to understand the product, target users, and business goals." },
+      { "title": "Design", "text": "Wireframes, high-fidelity UI, and clickable prototypes ready for feedback." },
+      { "title": "Build", "text": "Clean code using modern stacks, with weekly progress updates." },
+      { "title": "Launch", "text": "Deployment, store publication, and 30 days of post-launch support." }
+    ]
+  },
+  "Contact": {
+    "badge": "Start a project",
+    "title": "Have an idea? Let’s build it.",
+    "subtitle": "Fill out the form or contact us directly. The initial consultation is free, with no commitment.",
+    "socialLabel": "Instagram",
+    "socialValue": "Not set yet"
+  },
+  "ContactForm": {
+    "successTitle": "Message sent!",
+    "retry": "Send another message",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone number",
+      "service": "Service",
+      "message": "Tell us about your project"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "name@company.com",
+      "phone": "08xxxxxxxxxx",
+      "service": "Select a service",
+      "message": "What kind of product do you want to build? Who are the users? When is the target launch?"
+    },
+    "options": {
+      "servicePlaceholder": "Select a service",
+      "bundle": "Design + Development (bundle)"
+    },
+    "submit": "Send Message",
+    "submitPending": "Sending…",
+    "successMessage": "Thank you, {name}! We will reply to {email} within 1 business day.",
+    "validation": {
+      "nameMin": "Name must be at least 2 characters.",
+      "emailInvalid": "Invalid email format.",
+      "phoneInvalid": "Invalid phone number.",
+      "serviceRequired": "Please select a service.",
+      "messageMin": "Please provide a bit more detail (minimum 10 characters).",
+      "general": "Please review your input and try again.",
+      "sendFailed": "Something went wrong while sending the message. Please try again later."
+    }
+  },
+  "Nav": {
+    "company": "Company",
+    "services": "Services",
+    "items": {
+      "company": [
+        { "href": "/profil", "label": "Company Profile" },
+        { "href": "/visi-misi", "label": "Vision, Mission & Culture" },
+        { "href": "/struktur-kepemilikan", "label": "Ownership Structure" },
+        { "href": "/dewan-direksi", "label": "Board of Directors" },
+        { "href": "/dewan-komisaris", "label": "Board of Commissioners" },
+        { "href": "/sertifikat-penghargaan", "label": "Certificates & Awards" },
+        { "href": "/klien-portofolio", "label": "Clients & Portfolio" }
+      ],
+      "services": [
+        { "href": "/branding-strategi", "label": "Branding & Strategy" },
+        { "href": "/ui-ux-design", "label": "UI/UX Design" },
+        { "href": "/web-development", "label": "Web Development" },
+        { "href": "/maintenance-support", "label": "Maintenance & Support" }
+      ]
+    },
+    "cta": "Start a Project"
+  },
+  "Footer": {
+    "links": {
+      "profil": "Profile",
+      "visiMisi": "Vision & Mission",
+      "layanan": "Services",
+      "proses": "Process",
+      "kontak": "Contact"
+    },
+    "copyright": "© {year} VERSE Studio. Jakarta, Indonesia."
+  },
+  "Pages": {
+    "Profil": {
+      "label": "Company",
+      "title": "Company Profile",
+      "intro": "VERSE Studio is a digital agency that helps brands and startups build products that are clear, easy to use, and ready to grow.",
+      "article1": {
+        "heading": "About Us",
+        "body": "We work from strategy and design all the way to product development. Our team brings a collaborative, fast, and measurable approach so every decision can create real momentum."
+      },
+      "article2": {
+        "heading": "Advantages",
+        "items": [
+          "Experienced creative and technical team.",
+          "Focus on products that can grow and adapt.",
+          "Collaborative, transparent, and fast process."
+        ]
+      }
+    },
+    "VisiMisi": {
+      "label": "Company",
+      "title": "Vision, Mission & Culture",
+      "intro": "We believe a great digital product is not only visually impressive, but also easy to understand, relevant, and helpful for business growth.",
+      "article1": {
+        "heading": "Vision",
+        "body": "To become a digital partner that helps businesses grow through strategy, design, and impactful products."
+      },
+      "article2": {
+        "heading": "Mission",
+        "items": [
+          "Turn business ideas into clear and measurable solutions.",
+          "Develop digital experiences that are comfortable and effective.",
+          "Maintain quality, communication, and client trust."
+        ]
+      }
+    },
+    "Layanan": {
+      "label": "Services",
+      "title": "Services",
+      "intro": "Every service we offer is designed to help businesses move forward through a clear process, fast execution, and a strong focus on outcomes.",
+      "article1": {
+        "heading": "Branding & Strategy",
+        "body": "Brand strategy, positioning, and communication that make a business easier to understand and stronger in the market."
+      },
+      "article2": {
+        "heading": "UI/UX Design",
+        "body": "Intuitive, consistent interface design that supports products users can comfortably use."
+      },
+      "article3": {
+        "heading": "Web Development",
+        "body": "Fast, responsive, and well-structured websites and web applications for your business needs."
+      }
+    },
+    "BrandingStrategi": {
+      "label": "Services",
+      "title": "Branding & Strategy",
+      "intro": "Branding is more than appearance. We help businesses find the right direction, voice, and communication style to be more recognizable and memorable.",
+      "article1": {
+        "heading": "Brand Positioning",
+        "body": "We help businesses define positioning, tone of voice, and communication strategies that are consistent and powerful."
+      }
+    },
+    "UiUxDesign": {
+      "label": "Services",
+      "title": "UI/UX Design",
+      "intro": "Great design is not only pleasing to look at, but also comfortable to use, easy to understand, and persuasive enough to drive action.",
+      "article1": {
+        "heading": "Design Process",
+        "body": "We combine research, user flows, wireframes, and prototypes to create interfaces that are clear, comfortable, and easy to use."
+      }
+    },
+    "WebDevelopment": {
+      "label": "Services",
+      "title": "Web Development",
+      "intro": "We help build websites and web apps that are fast, responsive, and ready to grow alongside your business.",
+      "article1": {
+        "heading": "Built with Modern Stack",
+        "body": "We help build websites and web apps with a lightweight, fast, secure architecture that can grow with your business."
+      }
+    },
+    "MaintenanceSupport": {
+      "label": "Services",
+      "title": "Maintenance & Support",
+      "intro": "Once a product is live, we stay involved to maintain quality, security, and performance so the user experience remains consistent.",
+      "article1": {
+        "heading": "Post-Launch Support",
+        "body": "This service includes routine updates, bug fixes, performance optimization, and technical support to keep the product ready to grow."
+      }
+    },
+    "StrukturKepemilikan": {
+      "label": "Company",
+      "title": "Ownership Structure",
+      "intro": "We build a healthy business structure so that decisions, operations, and product direction stay balanced and transparent.",
+      "article1": {
+        "heading": "Ownership Composition",
+        "body": "Our ownership structure is designed so that business decisions, operations, and product development remain balanced and transparent."
+      }
+    },
+    "DewanDireksi": {
+      "label": "Company",
+      "title": "Board of Directors",
+      "intro": "Our board brings real experience in strategy, operations, and execution so the company’s vision can be translated into clear action.",
+      "article1": {
+        "heading": "Director Team",
+        "body": "Our directors combine operational experience, leadership, and fast decision-making so company strategies can be executed with precision."
+      }
+    },
+    "DewanKomisaris": {
+      "label": "Company",
+      "title": "Board of Commissioners",
+      "intro": "Our commissioners focus on oversight, strategic direction, and making sure business decisions stay aligned with long-term values and goals.",
+      "article1": {
+        "heading": "Commissioners' Role",
+        "body": "Our commissioners help keep the company moving in the right direction, maintain good governance, and provide practical strategic guidance."
+      }
+    },
+    "SertifikatPenghargaan": {
+      "label": "Company",
+      "title": "Certificates & Awards",
+      "intro": "We’re proud to keep learning, innovating, and working on projects with standards that people can trust.",
+      "article1": {
+        "heading": "Awards",
+        "body": "We continue to value quality, innovation, and a strong commitment to delivering the best possible results on every project."
+      }
+    },
+    "KlienPortofolio": {
+      "label": "Company",
+      "title": "Clients & Portfolio",
+      "intro": "We’ve helped various brands and startups create digital products that feel stronger, cleaner, and more ready to grow.",
+      "article1": {
+        "heading": "Case Study",
+        "body": "From early-stage brands to businesses already scaling, we help shape product experiences that are more polished, relevant, and ready to level up."
+      }
+    }
+  },
+  "PageLayout": {
+    "back": "Back"
+  },
+  "ServiceCard": {
+    "previewLabel": "Portfolio preview",
+    "whatYouGet": "What you get",
+    "estimate": "Estimate",
+    "startingFrom": "Starting from",
+    "order": "Order service"
+  }
+}

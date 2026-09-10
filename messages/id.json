@@ -1,0 +1,361 @@
+{
+  "Hero": {
+    "badge": "Studio Desain & Development",
+    "title": {
+      "start": "Desain yang",
+      "highlight": "berani.",
+      "middle": "Aplikasi yang",
+      "stroke": "bekerja."
+    },
+    "subtitle": "VERSE membantu startup dan bisnis merancang UI/UX mobile & web, lalu membangunnya menjadi aplikasi nyata. Tanpa jargon, tanpa template membosankan.",
+    "primaryCta": "Konsultasi Gratis",
+    "secondaryCta": "Lihat Layanan",
+    "stats": [
+      { "label": "Design sprint", "value": "2 minggu" },
+      { "label": "Kode milik Anda", "value": "100%" },
+      { "label": "Dukungan pasca-rilis", "value": "30 hari" }
+    ],
+    "previewLabel": "Interactive preview",
+    "laptopFrameLabel": "Web app Anda di sini",
+    "phoneFrameLabel": "Mobile app Anda di sini",
+    "slotMockup": "Slot mockup siap diisi produk klien berikutnya — mungkin punya Anda."
+  },
+  "Metadata": {
+    "title": "VERSE Studio — Jasa Desain UI/UX & Pengembangan Aplikasi",
+    "description": "Studio digital yang merancang UI/UX mobile & web serta membangun aplikasi dengan energi penuh warna. Desain berani, kode bersih, hasil nyata."
+  },
+  "About": {
+    "badge": "Profil",
+    "title": "Kami hadir untuk membuat ide terasa nyata.",
+    "paragraphs": [
+      "VERSE Studio adalah digital agency yang membantu bisnis dan startup merancang produk digital yang jelas, cepat dipahami, dan siap tumbuh.",
+      "Kami bekerja dari riset, strategi, desain, hingga development, dengan fokus pada pengalaman pengguna yang kuat dan hasil yang bisa diwujudkan secara nyata."
+    ],
+    "visionBadge": "Visi & Misi",
+    "visionTitle": "Visi",
+    "visionText": "Menjadi mitra digital yang membantu bisnis tumbuh melalui strategi, desain, dan produk yang berdampak.",
+    "missionTitle": "Misi",
+    "missionItems": [
+      "Membawa ide bisnis menjadi solusi yang jelas dan terukur.",
+      "Mengembangkan pengalaman digital yang nyaman dan efektif.",
+      "Menjaga kualitas kerja, komunikasi, dan kepercayaan klien.",
+      "Menciptakan produk yang mudah dipahami, dipercaya, dan disukai pengguna."
+    ]
+  },
+  "Services": {
+    "badge": "Layanan",
+    "title": "Pilih paket. Kami eksekusi.",
+    "description": "Semua paket bersifat modular — gabungkan desain dan development, atau ambil satu yang paling Anda butuhkan sekarang."
+  },
+  "StatsSection": {
+    "badge": "Statistik",
+    "title": "Angka yang percaya diri.",
+    "items": [
+      {
+        "label": "Pengalaman",
+        "value": "8",
+        "suffix": "+",
+        "description": "Tahun mengerjakan proyek digital untuk brand dan startup."
+      },
+      {
+        "label": "Klien",
+        "value": "120",
+        "suffix": "+",
+        "description": "Proyek selesai dengan scope design, development, dan support."
+      },
+      {
+        "label": "Karyawan",
+        "value": "18",
+        "suffix": "",
+        "description": "Tim kreatif, strategi, dan engineer yang siap bergerak cepat."
+      },
+      {
+        "label": "Retensi",
+        "value": "96",
+        "suffix": "%",
+        "description": "Client yang kembali mempercayai layanan setelah proyek pertama."
+      }
+    ]
+  },
+  "TestimonialsSection": {
+    "badge": "Testimoni",
+    "title": "Klien kami percaya hasilnya.",
+    "ratingLabel": "dari 5 bintang",
+    "items": [
+      {
+        "name": "Rizky",
+        "role": "Founder",
+        "company": "Nusa Creative",
+        "quote": "Timnya responsif, detail, dan hasil desainnya benar-benar membantu kami jualan lebih kuat. Prosesnya juga cepat dan komunikatif.",
+        "rating": 5
+      },
+      {
+        "name": "Alya",
+        "role": "Marketing Lead",
+        "company": "Vision Labs",
+        "quote": "Kami butuh website yang lebih modern dan siap digunakan untuk campaign. Hasilnya melebihi ekspektasi, terutama dari sisi UX.",
+        "rating": 5
+      },
+      {
+        "name": "Dimas",
+        "role": "Product Manager",
+        "company": "Orbit Studio",
+        "quote": "Mereka tidak hanya bikin tampilan bagus, tapi juga memastikan user flow dan kerjanya benar-benar rapi untuk tim internal.",
+        "rating": 5
+      }
+    ]
+  },
+  "FaqSection": {
+    "badge": "FAQ",
+    "title": "Pertanyaan yang sering muncul.",
+    "items": [
+      {
+        "question": "Apa yang termasuk dalam UI/UX Design?",
+        "answer": "Layanan UI/UX Design mencakup riset pengguna, wireframe, prototype, design system, dan high-fidelity interface yang siap dipakai tim development."
+      },
+      {
+        "question": "Berapa lama proses pembuatan website?",
+        "answer": "Durasi tergantung kompleksitas proyek. Umumnya landing page bisa selesai dalam 2–4 minggu, sedangkan web app atau aplikasi lebih lambat sesuai fitur yang dibutuhkan."
+      },
+      {
+        "question": "Apakah tersedia layanan maintenance setelah website jadi?",
+        "answer": "Ya, kami menyediakan Maintenance and Support untuk update fitur, bug fixing, keamanan, dan optimasi performa setelah rilis."
+      },
+      {
+        "question": "Bisakah Anda menangani Apps Development sekaligus UI/UX?",
+        "answer": "Bisa. Kami dapat menangani dari tahap riset, desain, development, hingga deploy dan support lanjutan untuk memastikan hasil akhir konsisten."
+      },
+      {
+        "question": "Bagaimana proses kerjasama dan komunikasi dengan tim?",
+        "answer": "Proses kerja biasanya dimulai dengan brief, lalu tim akan menyusun roadmap, revisi, dan progress update secara berkala agar klien tetap terhubung sejak awal."
+      }
+    ]
+  },
+  "Process": {
+    "badge": "Proses",
+    "title": "Empat langkah, nol drama.",
+    "steps": [
+      { "title": "Brief", "text": "Diskusi 30 menit untuk memahami produk, target pengguna, dan tujuan bisnis." },
+      { "title": "Desain", "text": "Wireframe, UI high-fidelity, dan prototype yang bisa langsung diklik." },
+      { "title": "Build", "text": "Kode bersih dengan stack modern, update progres setiap minggu." },
+      { "title": "Rilis", "text": "Deploy, publikasi ke store, dan dukungan 30 hari setelah live." }
+    ]
+  },
+  "Contact": {
+    "badge": "Mulai proyek",
+    "title": "Punya ide? Ayo bangun.",
+    "subtitle": "Isi form di samping atau hubungi kami langsung. Konsultasi awal gratis, tanpa komitmen.",
+    "socialLabel": "Instagram",
+    "socialValue": "Belum diatur"
+  },
+  "ContactForm": {
+    "successTitle": "Pesan terkirim!",
+    "retry": "Kirim pesan lain",
+    "fields": {
+      "name": "Nama",
+      "email": "Email",
+      "phone": "Nomor yang bisa dihubungi",
+      "service": "Layanan",
+      "message": "Ceritakan proyek Anda"
+    },
+    "placeholders": {
+      "name": "Nama Anda",
+      "email": "nama@perusahaan.com",
+      "phone": "08xxxxxxxxxx",
+      "service": "Pilih layanan",
+      "message": "Produk apa yang ingin dibuat? Siapa penggunanya? Target rilis kapan?"
+    },
+    "options": {
+      "servicePlaceholder": "Pilih layanan",
+      "bundle": "Desain + Development (bundle)"
+    },
+    "submit": "Kirim Pesan",
+    "submitPending": "Mengirim…",
+    "successMessage": "Terima kasih, {name}! Kami akan membalas ke {email} dalam 1 hari kerja.",
+    "validation": {
+      "nameMin": "Nama minimal 2 karakter.",
+      "emailInvalid": "Format email tidak valid.",
+      "phoneInvalid": "Nomor HP tidak valid.",
+      "serviceRequired": "Pilih layanan yang diinginkan.",
+      "messageMin": "Ceritakan sedikit lebih detail (min. 10 karakter).",
+      "general": "Periksa kembali isian Anda.",
+      "sendFailed": "Terjadi kesalahan saat mengirim pesan. Coba lagi nanti."
+    }
+  },
+  "Nav": {
+    "company": "Perusahaan",
+    "services": "Layanan",
+    "items": {
+      "company": [
+        { "href": "/profil", "label": "Profil Perusahaan" },
+        { "href": "/visi-misi", "label": "Visi, Misi & Budaya" },
+        { "href": "/struktur-kepemilikan", "label": "Struktur Kepemilikan" },
+        { "href": "/dewan-direksi", "label": "Dewan Direksi" },
+        { "href": "/dewan-komisaris", "label": "Dewan Komisaris" },
+        { "href": "/sertifikat-penghargaan", "label": "Sertifikat & Penghargaan" },
+        { "href": "/klien-portofolio", "label": "Klien & Portofolio" }
+      ],
+      "services": [
+        { "href": "/branding-strategi", "label": "Branding & Strategi" },
+        { "href": "/ui-ux-design", "label": "UI/UX Design" },
+        { "href": "/web-development", "label": "Web Development" },
+        { "href": "/maintenance-support", "label": "Maintenance & Support" }
+      ]
+    },
+    "cta": "Mulai Proyek"
+  },
+  "Footer": {
+    "links": {
+      "profil": "Profil",
+      "visiMisi": "Visi & Misi",
+      "layanan": "Layanan",
+      "proses": "Proses",
+      "kontak": "Kontak"
+    },
+    "copyright": "© {year} VERSE Studio. Jakarta, Indonesia."
+  },
+  "Pages": {
+    "Profil": {
+      "label": "Perusahaan",
+      "title": "Profil Perusahaan",
+      "intro": "VERSE Studio adalah agensi digital yang membantu brand dan startup membangun produk yang jelas, nyaman dipakai, dan siap tumbuh.",
+      "article1": {
+        "heading": "Tentang Kami",
+        "body": "Kami bergerak dari strategi, desain, hingga pengembangan produk. Tim kami bekerja dengan pendekatan kolaboratif, cepat, dan terukur agar setiap keputusan bisa langsung memberi dampak nyata."
+      },
+      "article2": {
+        "heading": "Keunggulan",
+        "items": [
+          "Tim kreatif dan teknis yang berpengalaman.",
+          "Fokus pada produk yang bisa tumbuh dan beradaptasi.",
+          "Proses kolaboratif, transparan, dan cepat."
+        ]
+      }
+    },
+    "VisiMisi": {
+      "label": "Perusahaan",
+      "title": "Visi, Misi & Budaya",
+      "intro": "Kami percaya produk digital yang baik bukan cuma kelihatan keren, tetapi juga mudah dipahami, terasa relevan, dan membantu bisnis berkembang.",
+      "article1": {
+        "heading": "Visi",
+        "body": "Menjadi mitra digital yang membantu bisnis tumbuh melalui strategi, desain, dan produk yang berdampak."
+      },
+      "article2": {
+        "heading": "Misi",
+        "items": [
+          "Membawa ide bisnis menjadi solusi yang jelas dan terukur.",
+          "Mengembangkan pengalaman digital yang nyaman dan efektif.",
+          "Menjaga kualitas kerja, komunikasi, dan kepercayaan klien."
+        ]
+      }
+    },
+    "Layanan": {
+      "label": "Layanan",
+      "title": "Layanan",
+      "intro": "Semua layanan kami dibuat agar kebutuhan bisnis bisa terpenuhi lewat proses yang jelas, cepat, dan tetap fokus pada hasil.",
+      "article1": {
+        "heading": "Branding & Strategi",
+        "body": "Strategi brand, positioning, dan komunikasi yang membuat bisnis lebih mudah dipahami dan lebih kuat di pasar."
+      },
+      "article2": {
+        "heading": "UI/UX Design",
+        "body": "Desain antarmuka yang intuitif, konsisten, dan siap mendukung produk yang nyaman dipakai pengguna."
+      },
+      "article3": {
+        "heading": "Web Development",
+        "body": "Website dan aplikasi web yang cepat, responsif, dan terstruktur untuk kebutuhan bisnis Anda."
+      }
+    },
+    "BrandingStrategi": {
+      "label": "Layanan",
+      "title": "Branding & Strategi",
+      "intro": "Branding bukan sekadar tampilan. Kami membantu bisnis menemukan arah, suara, dan cara komunikasi yang lebih kuat agar lebih mudah dikenali audiens.",
+      "article1": {
+        "heading": "Brand Positioning",
+        "body": "Kami membantu bisnis merumuskan positioning, tone of voice, serta strategi komunikasi yang konsisten dan kuat."
+      }
+    },
+    "UiUxDesign": {
+      "label": "Layanan",
+      "title": "UI/UX Design",
+      "intro": "Desain yang bagus tidak hanya indah di mata, tetapi juga nyaman dipakai, mudah dipahami, dan mendorong orang untuk bertindak.",
+      "article1": {
+        "heading": "Proses Desain",
+        "body": "Kami memadukan riset, user flow, wireframe, dan prototype untuk menciptakan tampilan yang nyaman, jelas, dan mudah dipakai."
+      }
+    },
+    "WebDevelopment": {
+      "label": "Layanan",
+      "title": "Web Development",
+      "intro": "Kami membantu membangun website dan aplikasi web yang cepat, responsif, dan siap tumbuh bersama bisnis Anda.",
+      "article1": {
+        "heading": "Build dengan Stack Modern",
+        "body": "Kami membantu membangun website dan web app dengan arsitektur ringan, cepat, aman, dan siap berkembang bersama bisnis Anda."
+      }
+    },
+    "MaintenanceSupport": {
+      "label": "Layanan",
+      "title": "Maintenance & Support",
+      "intro": "Setelah produk dirilis, kami tetap hadir untuk menjaga kualitas, keamanan, dan performa agar pengalaman pengguna tetap konsisten.",
+      "article1": {
+        "heading": "Dukungan Pasca-Rilis",
+        "body": "Layanan ini mencakup update rutin, perbaikan bug, optimasi performa, dan dukungan teknis agar produk selalu siap berkembang."
+      }
+    },
+    "StrukturKepemilikan": {
+      "label": "Perusahaan",
+      "title": "Struktur Kepemilikan",
+      "intro": "Kami membangun struktur bisnis yang sehat agar keputusan, operasional, dan arah produk tetap seimbang dan transparan.",
+      "article1": {
+        "heading": "Komposisi Kepemilikan",
+        "body": "Struktur kepemilikan kami dirancang agar keputusan bisnis, operasional, dan pengembangan produk tetap seimbang dan transparan."
+      }
+    },
+    "DewanDireksi": {
+      "label": "Perusahaan",
+      "title": "Dewan Direksi",
+      "intro": "Tim direksi kami membawa pengalaman dalam mengelola strategi, operasional, dan eksekusi agar visi perusahaan bisa terwujud dengan jelas.",
+      "article1": {
+        "heading": "Tim Direksi",
+        "body": "Tim direksi kami menggabungkan pengalaman operasional, kepemimpinan, dan pengambilan keputusan yang cepat agar strategi perusahaan bisa dijalankan dengan tepat."
+      }
+    },
+    "DewanKomisaris": {
+      "label": "Perusahaan",
+      "title": "Dewan Komisaris",
+      "intro": "Peran komisaris kami fokus pada pengawasan, arah strategis, dan memastikan keputusan bisnis berjalan sesuai prinsip serta tujuan jangka panjang.",
+      "article1": {
+        "heading": "Peran Komisaris",
+        "body": "Komisaris kami hadir untuk menjaga arah perusahaan tetap sehat, memastikan tata kelola berjalan baik, dan memberikan panduan strategis yang bermanfaat."
+      }
+    },
+    "SertifikatPenghargaan": {
+      "label": "Perusahaan",
+      "title": "Sertifikat & Penghargaan",
+      "intro": "Kami bangga terus belajar, berinovasi, dan mengerjakan proyek dengan standar yang bisa dipercaya.",
+      "article1": {
+        "heading": "Penghargaan",
+        "body": "Kami terus menaruh perhatian pada kualitas kerja, inovasi, dan komitmen untuk memberikan hasil terbaik di setiap proyek."
+      }
+    },
+    "KlienPortofolio": {
+      "label": "Perusahaan",
+      "title": "Klien & Portofolio",
+      "intro": "Kami sudah membantu berbagai brand dan startup menghadirkan produk digital yang lebih kuat, lebih rapi, dan lebih siap bertumbuh.",
+      "article1": {
+        "heading": "Case Study",
+        "body": "Dari brand baru hingga bisnis yang sudah berkembang, kami membantu menyusun pengalaman produk yang lebih rapi, lebih relevan, dan lebih siap naik kelas."
+      }
+    }
+  },
+  "PageLayout": {
+    "back": "Kembali"
+  },
+  "ServiceCard": {
+    "previewLabel": "Preview portofolio",
+    "whatYouGet": "Apa yang didapat",
+    "estimate": "Estimasi",
+    "startingFrom": "Mulai dari",
+    "order": "Pesan Jasa"
+  }
+}

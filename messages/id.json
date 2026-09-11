@@ -18,7 +18,7 @@
     "previewLabel": "Interactive preview",
     "laptopFrameLabel": "Web app Anda di sini",
     "phoneFrameLabel": "Mobile app Anda di sini",
-    "slotMockup": "Slot mockup siap diisi produk klien berikutnya — mungkin punya Anda."
+    "slotMockup": "Produk klien berikutnya akan tampil di sini."
   },
   "Metadata": {
     "title": "VERSE Studio — Jasa Desain UI/UX & Pengembangan Aplikasi",
@@ -146,7 +146,7 @@
     "title": "Punya ide? Ayo bangun.",
     "subtitle": "Isi form di samping atau hubungi kami langsung. Konsultasi awal gratis, tanpa komitmen.",
     "socialLabel": "Instagram",
-    "socialValue": "Belum diatur"
+    "socialValue": "@verse.studio"
   },
   "ContactForm": {
     "successTitle": "Pesan terkirim!",

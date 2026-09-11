@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { ArrowDown, ArrowRight } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
@@ -71,8 +72,40 @@ export async function Hero() {
             {t('previewLabel')}
           </span>
           <div className="relative grid grid-cols-[1fr_38%] items-end gap-4 pt-6">
-            <LaptopFrame className="rotate-[-2deg]" label={laptopFrameLabel} />
-            <PhoneFrame className="rotate-[4deg]" label={phoneFrameLabel} />
+            <a
+              href="https://karyasmk.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Buka website Karya SMK"
+              className="block transition-transform duration-150 hover:scale-[1.01]"
+            >
+              <LaptopFrame className="rotate-[-2deg]" label={laptopFrameLabel}>
+                <Image
+                  src="/Website.png"
+                  alt="Website preview"
+                  fill
+                  sizes="(max-width: 1024px) 70vw, 44vw"
+                  className="object-cover"
+                />
+              </LaptopFrame>
+            </a>
+            <a
+              href="https://www.figma.com/proto/VXpQ66tDBlU1RGKpxaHzdn/gataunamatim-Kel.-5?node-id=0-1&t=Muf054crKy1MqnaB-1"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Buka prototype mobile sample app VERSE Studio"
+              className="block transition-transform duration-150 hover:scale-[1.01]"
+            >
+              <PhoneFrame className="rotate-[4deg]" label={phoneFrameLabel}>
+                <Image
+                  src="/sample-apps.png"
+                  alt="Preview aplikasi mobile sample"
+                  fill
+                  sizes="(max-width: 1024px) 35vw, 18vw"
+                  className="object-cover"
+                />
+              </PhoneFrame>
+            </a>
           </div>
           <p className="mt-6 text-center text-sm font-bold tracking-wide text-paper/80 uppercase">
             {slotMockup}

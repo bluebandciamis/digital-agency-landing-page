@@ -18,7 +18,7 @@
     "previewLabel": "Interactive preview",
     "laptopFrameLabel": "Your web app goes here",
     "phoneFrameLabel": "Your mobile app goes here",
-    "slotMockup": "Mockup slot ready for the next client product — maybe yours."
+    "slotMockup": "The next client product preview will appear here."
   },
   "Metadata": {
     "title": "VERSE Studio — UI/UX Design & App Development Services",
@@ -146,7 +146,7 @@
     "title": "Have an idea? Let’s build it.",
     "subtitle": "Fill out the form or contact us directly. The initial consultation is free, with no commitment.",
     "socialLabel": "Instagram",
-    "socialValue": "Not set yet"
+    "socialValue": "@verse.studio"
   },
   "ContactForm": {
     "successTitle": "Message sent!",

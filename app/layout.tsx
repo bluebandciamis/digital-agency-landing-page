@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/next'
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from 'next'
 import { Archivo_Black, Space_Grotesk } from 'next/font/google'
 import './globals.css'

@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   description:
     'Studio digital yang merancang UI/UX mobile & web serta membangun aplikasi dengan energi penuh warna. Desain berani, kode bersih, hasil nyata.',
   generator: 'v0.app',
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
 }
 
 export const viewport: Viewport = {

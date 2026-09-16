@@ -75,20 +75,28 @@
 html.dark {
   color-scheme: dark;
 
-  --paper: #12101f;
-  --ink: #fff6e5;
+  --crimson: #f472b6;
+  --gold: #f9c74f;
+  --magenta: #d8a8ff;
+  --paper: #150d1d;
+  --ink: #fff1ff;
+
   --background: var(--paper);
   --foreground: var(--ink);
-  --card: var(--paper);
+  --card: #1d1429;
   --card-foreground: var(--ink);
-  --popover: var(--paper);
+  --popover: #1d1429;
   --popover-foreground: var(--ink);
-  --muted: #231f31;
-  --muted-foreground: #d8d0d9;
+  --muted: #2a1a35;
+  --muted-foreground: #f1d7f8;
+  --primary: var(--crimson);
+  --primary-foreground: #1d1028;
+  --secondary: var(--gold);
+  --secondary-foreground: #1d1028;
   --accent: var(--magenta);
-  --accent-foreground: var(--ink);
-  --border: var(--ink);
-  --input: var(--ink);
+  --accent-foreground: #1d1028;
+  --border: #f0bde6;
+  --input: #f0bde6;
 }
 
 @layer base {
